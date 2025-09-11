@@ -1,0 +1,22 @@
+SEMANTICALLY INTERESTING AND SECURE 
+============================================================
+
+Message Space: ['CHEER', 'DIFFS', 'JOLLY']
+Target Ciphertext: 'CHEER'
+------------------------------------------------------------
+
+Message: 'CHEER'
+  Key: 'A' (shift = 0)
+  Encrypts to: 'CHEER'
+  Verification: 'CHEER' == 'CHEER' -> True
+
+Message: 'DIFFS'
+  Key: 'SPACE' (shift = 26)
+  Encrypts to: 'CHEER'
+  Verification: 'CHEER' == 'CHEER' -> True
+
+Message: 'JOLLY'
+  Key: 'U' (shift = 20)
+  Encrypts to: 'CHEER'
+  Verification: 'CHEER' == 'CHEER' -> True
+

@@ -1,0 +1,199 @@
+CAESAR CIPHER SECURE WORD SETS
+============================================================
+
+These word sets demonstrate perfect secrecy:
+Given only the ciphertext, an attacker cannot determine
+which word was originally encrypted.
+
+
+1. ['CRO', 'DSP', 'THE']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'DSP' + ' ' = 'CRO'
+   - 'THE' + 'K' = 'CRO'
+
+----------------------------------------
+
+2. ['CRO', 'FUR', 'THE']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'FUR' + 'Y' = 'CRO'
+   - 'THE' + 'K' = 'CRO'
+
+----------------------------------------
+
+3. ['CRO', 'HWT', 'THE']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'HWT' + 'W' = 'CRO'
+   - 'THE' + 'K' = 'CRO'
+
+----------------------------------------
+
+4. ['CRO', 'DSP', 'FUR']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'DSP' + ' ' = 'CRO'
+   - 'FUR' + 'Y' = 'CRO'
+
+----------------------------------------
+
+5. ['CRO', 'DSP', 'HWT']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'DSP' + ' ' = 'CRO'
+   - 'HWT' + 'W' = 'CRO'
+
+----------------------------------------
+
+6. ['CRO', 'DSP', 'MAY']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'DSP' + ' ' = 'CRO'
+   - 'MAY' + 'R' = 'CRO'
+
+----------------------------------------
+
+7. ['CRO', 'DSP', 'PDA']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'DSP' + ' ' = 'CRO'
+   - 'PDA' + 'O' = 'CRO'
+
+----------------------------------------
+
+8. ['CRO', 'DSP', 'RFC']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'DSP' + ' ' = 'CRO'
+   - 'RFC' + 'M' = 'CRO'
+
+----------------------------------------
+
+9. ['CRO', 'DSP', 'SGD']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'DSP' + ' ' = 'CRO'
+   - 'SGD' + 'L' = 'CRO'
+
+----------------------------------------
+
+10. ['CRO', 'FUR', 'HWT']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'FUR' + 'Y' = 'CRO'
+   - 'HWT' + 'W' = 'CRO'
+
+----------------------------------------
+
+11. ['CRO', 'FUR', 'MAY']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'FUR' + 'Y' = 'CRO'
+   - 'MAY' + 'R' = 'CRO'
+
+----------------------------------------
+
+12. ['CRO', 'FUR', 'PDA']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'FUR' + 'Y' = 'CRO'
+   - 'PDA' + 'O' = 'CRO'
+
+----------------------------------------
+
+13. ['CRO', 'FUR', 'RFC']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'FUR' + 'Y' = 'CRO'
+   - 'RFC' + 'M' = 'CRO'
+
+----------------------------------------
+
+14. ['CRO', 'FUR', 'SGD']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'FUR' + 'Y' = 'CRO'
+   - 'SGD' + 'L' = 'CRO'
+
+----------------------------------------
+
+15. ['CRO', 'HWT', 'MAY']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'HWT' + 'W' = 'CRO'
+   - 'MAY' + 'R' = 'CRO'
+
+----------------------------------------
+
+16. ['CRO', 'HWT', 'PDA']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'HWT' + 'W' = 'CRO'
+   - 'PDA' + 'O' = 'CRO'
+
+----------------------------------------
+
+17. ['CRO', 'HWT', 'RFC']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'HWT' + 'W' = 'CRO'
+   - 'RFC' + 'M' = 'CRO'
+
+----------------------------------------
+
+18. ['CRO', 'HWT', 'SGD']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'HWT' + 'W' = 'CRO'
+   - 'SGD' + 'L' = 'CRO'
+
+----------------------------------------
+
+19. ['CRO', 'MAY', 'PDA']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'MAY' + 'R' = 'CRO'
+   - 'PDA' + 'O' = 'CRO'
+
+----------------------------------------
+
+20. ['CRO', 'MAY', 'RFC']
+   Common ciphertext: 'CRO'
+   - 'CRO' + 'A' = 'CRO'
+   - 'MAY' + 'R' = 'CRO'
+   - 'RFC' + 'M' = 'CRO'
+
+----------------------------------------
+
+21. ['ABBA', 'DEED', 'NOON']
+   Common ciphertext: 'ABBA'
+   - 'ABBA' + 'A' = 'ABBA'
+   - 'DEED' + 'Y' = 'ABBA'
+   - 'NOON' + 'O' = 'ABBA'
+
+----------------------------------------
+
+22. ['ABEY', 'HILE', 'NORK']
+   Common ciphertext: 'ABEY'
+   - 'ABEY' + 'A' = 'ABEY'
+   - 'HILE' + 'U' = 'ABEY'
+   - 'NORK' + 'O' = 'ABEY'
+
+----------------------------------------
+
+23. ['ABIB', 'DELE', 'NOVO']
+   Common ciphertext: 'ABIB'
+   - 'ABIB' + 'A' = 'ABIB'
+   - 'DELE' + 'Y' = 'ABIB'
+   - 'NOVO' + 'O' = 'ABIB'
+
+----------------------------------------
+
+24. ['ADDR', 'BEES', 'LOOB']
+   Common ciphertext: 'ADDR'
+   - 'ADDR' + 'A' = 'ADDR'
+   - 'BEES' + ' ' = 'ADDR'
+   - 'LOOB' + 'Q' = 'ADDR'
+
+----------------------------------------

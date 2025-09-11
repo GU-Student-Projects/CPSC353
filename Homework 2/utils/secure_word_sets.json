@@ -1,0 +1,846 @@
+{
+  "description": "Sets of English words that can all encrypt to the same ciphertext using Caesar cipher with different keys",
+  "total_sets": 24,
+  "sets": [
+    {
+      "words": [
+        "CRO",
+        "DSP",
+        "THE"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 29,
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "THE": "K"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "DSP",
+          "key": " ",
+          "shift": 26,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "THE",
+          "key": "K",
+          "shift": 10,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "FUR",
+        "THE"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 29,
+      "keys": {
+        "CRO": "A",
+        "FUR": "Y",
+        "THE": "K"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "FUR",
+          "key": "Y",
+          "shift": 24,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "THE",
+          "key": "K",
+          "shift": 10,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "HWT",
+        "THE"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 29,
+      "keys": {
+        "CRO": "A",
+        "HWT": "W",
+        "THE": "K"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "HWT",
+          "key": "W",
+          "shift": 22,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "THE",
+          "key": "K",
+          "shift": 10,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "DSP",
+        "FUR"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "FUR": "Y"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "DSP",
+          "key": " ",
+          "shift": 26,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "FUR",
+          "key": "Y",
+          "shift": 24,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "DSP",
+        "HWT"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "HWT": "W"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "DSP",
+          "key": " ",
+          "shift": 26,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "HWT",
+          "key": "W",
+          "shift": 22,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "DSP",
+        "MAY"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "MAY": "R"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "DSP",
+          "key": " ",
+          "shift": 26,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "MAY",
+          "key": "R",
+          "shift": 17,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "DSP",
+        "PDA"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "PDA": "O"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "DSP",
+          "key": " ",
+          "shift": 26,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "PDA",
+          "key": "O",
+          "shift": 14,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "DSP",
+        "RFC"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "RFC": "M"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "DSP",
+          "key": " ",
+          "shift": 26,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "RFC",
+          "key": "M",
+          "shift": 12,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "DSP",
+        "SGD"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "SGD": "L"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "DSP",
+          "key": " ",
+          "shift": 26,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "SGD",
+          "key": "L",
+          "shift": 11,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "FUR",
+        "HWT"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "FUR": "Y",
+        "HWT": "W"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "FUR",
+          "key": "Y",
+          "shift": 24,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "HWT",
+          "key": "W",
+          "shift": 22,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "FUR",
+        "MAY"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "FUR": "Y",
+        "MAY": "R"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "FUR",
+          "key": "Y",
+          "shift": 24,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "MAY",
+          "key": "R",
+          "shift": 17,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "FUR",
+        "PDA"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "FUR": "Y",
+        "PDA": "O"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "FUR",
+          "key": "Y",
+          "shift": 24,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "PDA",
+          "key": "O",
+          "shift": 14,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "FUR",
+        "RFC"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "FUR": "Y",
+        "RFC": "M"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "FUR",
+          "key": "Y",
+          "shift": 24,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "RFC",
+          "key": "M",
+          "shift": 12,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "FUR",
+        "SGD"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "FUR": "Y",
+        "SGD": "L"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "FUR",
+          "key": "Y",
+          "shift": 24,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "SGD",
+          "key": "L",
+          "shift": 11,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "HWT",
+        "MAY"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "HWT": "W",
+        "MAY": "R"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "HWT",
+          "key": "W",
+          "shift": 22,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "MAY",
+          "key": "R",
+          "shift": 17,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "HWT",
+        "PDA"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "HWT": "W",
+        "PDA": "O"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "HWT",
+          "key": "W",
+          "shift": 22,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "PDA",
+          "key": "O",
+          "shift": 14,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "HWT",
+        "RFC"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "HWT": "W",
+        "RFC": "M"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "HWT",
+          "key": "W",
+          "shift": 22,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "RFC",
+          "key": "M",
+          "shift": 12,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "HWT",
+        "SGD"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "HWT": "W",
+        "SGD": "L"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "HWT",
+          "key": "W",
+          "shift": 22,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "SGD",
+          "key": "L",
+          "shift": 11,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "MAY",
+        "PDA"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "MAY": "R",
+        "PDA": "O"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "MAY",
+          "key": "R",
+          "shift": 17,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "PDA",
+          "key": "O",
+          "shift": 14,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "CRO",
+        "MAY",
+        "RFC"
+      ],
+      "ciphertext": "CRO",
+      "length": 3,
+      "score": 9,
+      "keys": {
+        "CRO": "A",
+        "MAY": "R",
+        "RFC": "M"
+      },
+      "demonstration": [
+        {
+          "plaintext": "CRO",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "MAY",
+          "key": "R",
+          "shift": 17,
+          "ciphertext": "CRO"
+        },
+        {
+          "plaintext": "RFC",
+          "key": "M",
+          "shift": 12,
+          "ciphertext": "CRO"
+        }
+      ]
+    },
+    {
+      "words": [
+        "ABBA",
+        "DEED",
+        "NOON"
+      ],
+      "ciphertext": "ABBA",
+      "length": 4,
+      "score": 3,
+      "keys": {
+        "ABBA": "A",
+        "DEED": "Y",
+        "NOON": "O"
+      },
+      "demonstration": [
+        {
+          "plaintext": "ABBA",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "ABBA"
+        },
+        {
+          "plaintext": "DEED",
+          "key": "Y",
+          "shift": 24,
+          "ciphertext": "ABBA"
+        },
+        {
+          "plaintext": "NOON",
+          "key": "O",
+          "shift": 14,
+          "ciphertext": "ABBA"
+        }
+      ]
+    },
+    {
+      "words": [
+        "ABEY",
+        "HILE",
+        "NORK"
+      ],
+      "ciphertext": "ABEY",
+      "length": 4,
+      "score": 3,
+      "keys": {
+        "ABEY": "A",
+        "HILE": "U",
+        "NORK": "O"
+      },
+      "demonstration": [
+        {
+          "plaintext": "ABEY",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "ABEY"
+        },
+        {
+          "plaintext": "HILE",
+          "key": "U",
+          "shift": 20,
+          "ciphertext": "ABEY"
+        },
+        {
+          "plaintext": "NORK",
+          "key": "O",
+          "shift": 14,
+          "ciphertext": "ABEY"
+        }
+      ]
+    },
+    {
+      "words": [
+        "ABIB",
+        "DELE",
+        "NOVO"
+      ],
+      "ciphertext": "ABIB",
+      "length": 4,
+      "score": 3,
+      "keys": {
+        "ABIB": "A",
+        "DELE": "Y",
+        "NOVO": "O"
+      },
+      "demonstration": [
+        {
+          "plaintext": "ABIB",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "ABIB"
+        },
+        {
+          "plaintext": "DELE",
+          "key": "Y",
+          "shift": 24,
+          "ciphertext": "ABIB"
+        },
+        {
+          "plaintext": "NOVO",
+          "key": "O",
+          "shift": 14,
+          "ciphertext": "ABIB"
+        }
+      ]
+    },
+    {
+      "words": [
+        "ADDR",
+        "BEES",
+        "LOOB"
+      ],
+      "ciphertext": "ADDR",
+      "length": 4,
+      "score": 3,
+      "keys": {
+        "ADDR": "A",
+        "BEES": " ",
+        "LOOB": "Q"
+      },
+      "demonstration": [
+        {
+          "plaintext": "ADDR",
+          "key": "A",
+          "shift": 0,
+          "ciphertext": "ADDR"
+        },
+        {
+          "plaintext": "BEES",
+          "key": " ",
+          "shift": 26,
+          "ciphertext": "ADDR"
+        },
+        {
+          "plaintext": "LOOB",
+          "key": "Q",
+          "shift": 16,
+          "ciphertext": "ADDR"
+        }
+      ]
+    }
+  ]
+}

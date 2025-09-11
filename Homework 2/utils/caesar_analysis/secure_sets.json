@@ -1,0 +1,524 @@
+{
+  "description": "Semantically secure word sets found through parallel analysis",
+  "total_sets": 37,
+  "sets": [
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "DSP",
+        "FUR"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "FUR": "Y"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "DSP",
+        "HWT"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "HWT": "W"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "DSP",
+        "MAY"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "MAY": "R"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "DSP",
+        "PDA"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "PDA": "O"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "DSP",
+        "RFC"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "RFC": "M"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "DSP",
+        "SGD"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "SGD": "L"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "DSP",
+        "THE"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "DSP": " ",
+        "THE": "K"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "FUR",
+        "HWT"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "FUR": "Y",
+        "HWT": "W"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "FUR",
+        "MAY"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "FUR": "Y",
+        "MAY": "R"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "FUR",
+        "PDA"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "FUR": "Y",
+        "PDA": "O"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "FUR",
+        "RFC"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "FUR": "Y",
+        "RFC": "M"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "FUR",
+        "SGD"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "FUR": "Y",
+        "SGD": "L"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "FUR",
+        "THE"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "FUR": "Y",
+        "THE": "K"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "HWT",
+        "MAY"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "HWT": "W",
+        "MAY": "R"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "HWT",
+        "PDA"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "HWT": "W",
+        "PDA": "O"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "HWT",
+        "RFC"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "HWT": "W",
+        "RFC": "M"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "HWT",
+        "SGD"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "HWT": "W",
+        "SGD": "L"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "HWT",
+        "THE"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "HWT": "W",
+        "THE": "K"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "MAY",
+        "PDA"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "MAY": "R",
+        "PDA": "O"
+      }
+    },
+    {
+      "word_length": 3,
+      "words": [
+        "CRO",
+        "MAY",
+        "RFC"
+      ],
+      "ciphertext": "CRO",
+      "keys": {
+        "CRO": "A",
+        "MAY": "R",
+        "RFC": "M"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "ADAD",
+        "LOLO",
+        "RURU"
+      ],
+      "ciphertext": "ADAD",
+      "keys": {
+        "ADAD": "A",
+        "LOLO": "Q",
+        "RURU": "K"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "ADAD",
+        "LOLO",
+        "YAYA"
+      ],
+      "ciphertext": "ADAD",
+      "keys": {
+        "ADAD": "A",
+        "LOLO": "Q",
+        "YAYA": "D"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "ADAD",
+        "RURU",
+        "YAYA"
+      ],
+      "ciphertext": "ADAD",
+      "keys": {
+        "ADAD": "A",
+        "RURU": "K",
+        "YAYA": "D"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "LOLO",
+        "RURU",
+        "YAYA"
+      ],
+      "ciphertext": "ADAD",
+      "keys": {
+        "LOLO": "Q",
+        "RURU": "K",
+        "YAYA": "D"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "ANAN",
+        "BOBO",
+        "ERER"
+      ],
+      "ciphertext": "ANAN",
+      "keys": {
+        "ANAN": "A",
+        "BOBO": " ",
+        "ERER": "X"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "ANAN",
+        "BOBO",
+        "WIWI"
+      ],
+      "ciphertext": "ANAN",
+      "keys": {
+        "ANAN": "A",
+        "BOBO": " ",
+        "WIWI": "F"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "ANAN",
+        "ERER",
+        "WIWI"
+      ],
+      "ciphertext": "ANAN",
+      "keys": {
+        "ANAN": "A",
+        "ERER": "X",
+        "WIWI": "F"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "BOBO",
+        "ERER",
+        "WIWI"
+      ],
+      "ciphertext": "ANAN",
+      "keys": {
+        "BOBO": " ",
+        "ERER": "X",
+        "WIWI": "F"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "ARAR",
+        "KAKA",
+        "SISI"
+      ],
+      "ciphertext": "ARAR",
+      "keys": {
+        "ARAR": "A",
+        "KAKA": "R",
+        "SISI": "J"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "ARAR",
+        "KAKA",
+        "YOYO"
+      ],
+      "ciphertext": "ARAR",
+      "keys": {
+        "ARAR": "A",
+        "KAKA": "R",
+        "YOYO": "D"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "ARAR",
+        "SISI",
+        "YOYO"
+      ],
+      "ciphertext": "ARAR",
+      "keys": {
+        "ARAR": "A",
+        "SISI": "J",
+        "YOYO": "D"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "KAKA",
+        "SISI",
+        "YOYO"
+      ],
+      "ciphertext": "ARAR",
+      "keys": {
+        "KAKA": "R",
+        "SISI": "J",
+        "YOYO": "D"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "BROB",
+        "EURE",
+        "SHES"
+      ],
+      "ciphertext": "BROB",
+      "keys": {
+        "BROB": "A",
+        "EURE": "Y",
+        "SHES": "K"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "BROB",
+        "EURE",
+        "TIFT"
+      ],
+      "ciphertext": "BROB",
+      "keys": {
+        "BROB": "A",
+        "EURE": "Y",
+        "TIFT": "J"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "BROB",
+        "SHES",
+        "TIFT"
+      ],
+      "ciphertext": "BROB",
+      "keys": {
+        "BROB": "A",
+        "SHES": "K",
+        "TIFT": "J"
+      }
+    },
+    {
+      "word_length": 4,
+      "words": [
+        "EURE",
+        "SHES",
+        "TIFT"
+      ],
+      "ciphertext": "BROB",
+      "keys": {
+        "EURE": "Y",
+        "SHES": "K",
+        "TIFT": "J"
+      }
+    },
+    {
+      "word_length": 5,
+      "words": [
+        "CHEER",
+        "DIFFS",
+        "JOLLY"
+      ],
+      "ciphertext": "CHEER",
+      "keys": {
+        "CHEER": "A",
+        "DIFFS": " ",
+        "JOLLY": "U"
+      }
+    }
+  ]
+}

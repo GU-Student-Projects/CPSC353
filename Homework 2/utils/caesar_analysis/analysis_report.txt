@@ -1,0 +1,212 @@
+CAESAR CIPHER PARALLEL ANALYSIS REPORT
+======================================================================
+
+
+3-LETTER WORDS ANALYSIS
+----------------------------------------
+Total words analyzed: 2278
+Unique ciphertexts possible: 19116
+Ciphertexts with collisions: 16848
+Secure 3-word sets found: 20
+
+TOP SECURE WORD SETS:
+
+  1. ['CRO', 'DSP', 'FUR']
+     Common ciphertext: 'CRO'
+     'CRO' + key 'A' (shift  0) → 'CRO'
+     'DSP' + key 'SPACE' (shift 26) → 'CRO'
+     'FUR' + key 'Y' (shift 24) → 'CRO'
+
+  2. ['CRO', 'DSP', 'HWT']
+     Common ciphertext: 'CRO'
+     'CRO' + key 'A' (shift  0) → 'CRO'
+     'DSP' + key 'SPACE' (shift 26) → 'CRO'
+     'HWT' + key 'W' (shift 22) → 'CRO'
+
+  3. ['CRO', 'DSP', 'MAY']
+     Common ciphertext: 'CRO'
+     'CRO' + key 'A' (shift  0) → 'CRO'
+     'DSP' + key 'SPACE' (shift 26) → 'CRO'
+     'MAY' + key 'R' (shift 17) → 'CRO'
+
+  4. ['CRO', 'DSP', 'PDA']
+     Common ciphertext: 'CRO'
+     'CRO' + key 'A' (shift  0) → 'CRO'
+     'DSP' + key 'SPACE' (shift 26) → 'CRO'
+     'PDA' + key 'O' (shift 14) → 'CRO'
+
+  5. ['CRO', 'DSP', 'RFC']
+     Common ciphertext: 'CRO'
+     'CRO' + key 'A' (shift  0) → 'CRO'
+     'DSP' + key 'SPACE' (shift 26) → 'CRO'
+     'RFC' + key 'M' (shift 12) → 'CRO'
+
+  6. ['CRO', 'DSP', 'SGD']
+     Common ciphertext: 'CRO'
+     'CRO' + key 'A' (shift  0) → 'CRO'
+     'DSP' + key 'SPACE' (shift 26) → 'CRO'
+     'SGD' + key 'L' (shift 11) → 'CRO'
+
+  7. ['CRO', 'DSP', 'THE']
+     Common ciphertext: 'CRO'
+     'CRO' + key 'A' (shift  0) → 'CRO'
+     'DSP' + key 'SPACE' (shift 26) → 'CRO'
+     'THE' + key 'K' (shift 10) → 'CRO'
+
+  8. ['CRO', 'FUR', 'HWT']
+     Common ciphertext: 'CRO'
+     'CRO' + key 'A' (shift  0) → 'CRO'
+     'FUR' + key 'Y' (shift 24) → 'CRO'
+     'HWT' + key 'W' (shift 22) → 'CRO'
+
+  9. ['CRO', 'FUR', 'MAY']
+     Common ciphertext: 'CRO'
+     'CRO' + key 'A' (shift  0) → 'CRO'
+     'FUR' + key 'Y' (shift 24) → 'CRO'
+     'MAY' + key 'R' (shift 17) → 'CRO'
+
+  10. ['CRO', 'FUR', 'PDA']
+     Common ciphertext: 'CRO'
+     'CRO' + key 'A' (shift  0) → 'CRO'
+     'FUR' + key 'Y' (shift 24) → 'CRO'
+     'PDA' + key 'O' (shift 14) → 'CRO'
+
+======================================================================
+
+4-LETTER WORDS ANALYSIS
+----------------------------------------
+Total words analyzed: 7237
+Unique ciphertexts possible: 166644
+Ciphertexts with collisions: 25596
+Secure 3-word sets found: 16
+
+TOP SECURE WORD SETS:
+
+  1. ['ADAD', 'LOLO', 'RURU']
+     Common ciphertext: 'ADAD'
+     'ADAD' + key 'A' (shift  0) → 'ADAD'
+     'LOLO' + key 'Q' (shift 16) → 'ADAD'
+     'RURU' + key 'K' (shift 10) → 'ADAD'
+
+  2. ['ADAD', 'LOLO', 'YAYA']
+     Common ciphertext: 'ADAD'
+     'ADAD' + key 'A' (shift  0) → 'ADAD'
+     'LOLO' + key 'Q' (shift 16) → 'ADAD'
+     'YAYA' + key 'D' (shift  3) → 'ADAD'
+
+  3. ['ADAD', 'RURU', 'YAYA']
+     Common ciphertext: 'ADAD'
+     'ADAD' + key 'A' (shift  0) → 'ADAD'
+     'RURU' + key 'K' (shift 10) → 'ADAD'
+     'YAYA' + key 'D' (shift  3) → 'ADAD'
+
+  4. ['LOLO', 'RURU', 'YAYA']
+     Common ciphertext: 'ADAD'
+     'LOLO' + key 'Q' (shift 16) → 'ADAD'
+     'RURU' + key 'K' (shift 10) → 'ADAD'
+     'YAYA' + key 'D' (shift  3) → 'ADAD'
+
+  5. ['ANAN', 'BOBO', 'ERER']
+     Common ciphertext: 'ANAN'
+     'ANAN' + key 'A' (shift  0) → 'ANAN'
+     'BOBO' + key 'SPACE' (shift 26) → 'ANAN'
+     'ERER' + key 'X' (shift 23) → 'ANAN'
+
+  6. ['ANAN', 'BOBO', 'WIWI']
+     Common ciphertext: 'ANAN'
+     'ANAN' + key 'A' (shift  0) → 'ANAN'
+     'BOBO' + key 'SPACE' (shift 26) → 'ANAN'
+     'WIWI' + key 'F' (shift  5) → 'ANAN'
+
+  7. ['ANAN', 'ERER', 'WIWI']
+     Common ciphertext: 'ANAN'
+     'ANAN' + key 'A' (shift  0) → 'ANAN'
+     'ERER' + key 'X' (shift 23) → 'ANAN'
+     'WIWI' + key 'F' (shift  5) → 'ANAN'
+
+  8. ['BOBO', 'ERER', 'WIWI']
+     Common ciphertext: 'ANAN'
+     'BOBO' + key 'SPACE' (shift 26) → 'ANAN'
+     'ERER' + key 'X' (shift 23) → 'ANAN'
+     'WIWI' + key 'F' (shift  5) → 'ANAN'
+
+  9. ['ARAR', 'KAKA', 'SISI']
+     Common ciphertext: 'ARAR'
+     'ARAR' + key 'A' (shift  0) → 'ARAR'
+     'KAKA' + key 'R' (shift 17) → 'ARAR'
+     'SISI' + key 'J' (shift  9) → 'ARAR'
+
+  10. ['ARAR', 'KAKA', 'YOYO']
+     Common ciphertext: 'ARAR'
+     'ARAR' + key 'A' (shift  0) → 'ARAR'
+     'KAKA' + key 'R' (shift 17) → 'ARAR'
+     'YOYO' + key 'D' (shift  3) → 'ARAR'
+
+======================================================================
+
+5-LETTER WORDS ANALYSIS
+----------------------------------------
+Total words analyzed: 15925
+Unique ciphertexts possible: 423684
+Ciphertexts with collisions: 6264
+Secure 3-word sets found: 1
+
+TOP SECURE WORD SETS:
+
+  1. ['CHEER', 'DIFFS', 'JOLLY']
+     Common ciphertext: 'CHEER'
+     'CHEER' + key 'A' (shift  0) → 'CHEER'
+     'DIFFS' + key 'SPACE' (shift 26) → 'CHEER'
+     'JOLLY' + key 'U' (shift 20) → 'CHEER'
+
+======================================================================
+
+6-LETTER WORDS ANALYSIS
+----------------------------------------
+Total words analyzed: 29889
+Unique ciphertexts possible: 806166
+Ciphertexts with collisions: 837
+Secure 3-word sets found: 0
+
+
+======================================================================
+
+7-LETTER WORDS ANALYSIS
+----------------------------------------
+Total words analyzed: 41948
+Unique ciphertexts possible: 1132542
+Ciphertexts with collisions: 54
+Secure 3-word sets found: 0
+
+
+======================================================================
+
+8-LETTER WORDS ANALYSIS
+----------------------------------------
+Total words analyzed: 51578
+Unique ciphertexts possible: 1392606
+Ciphertexts with collisions: 0
+Secure 3-word sets found: 0
+
+
+======================================================================
+
+9-LETTER WORDS ANALYSIS
+----------------------------------------
+Total words analyzed: 53308
+Unique ciphertexts possible: 1439316
+Ciphertexts with collisions: 0
+Secure 3-word sets found: 0
+
+
+======================================================================
+
+10-LETTER WORDS ANALYSIS
+----------------------------------------
+Total words analyzed: 45824
+Unique ciphertexts possible: 1237248
+Ciphertexts with collisions: 0
+Secure 3-word sets found: 0
+
+
+======================================================================
