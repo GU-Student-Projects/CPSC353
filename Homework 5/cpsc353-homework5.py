@@ -6,6 +6,22 @@ Implements tests 2.1-2.4 for random and pseudorandom number generators
 import numpy as np
 from scipy.special import erfc, gammaincc
 from typing import Dict
+import secrets
+
+def random_bitstring(n: int) -> str:
+    """Generate a cryptographically-secure random bitstring of length n.
+    Args:
+        n: number of bits (integer)
+    Returns:
+        String of bits    
+    """
+
+    num_bytes = (n + 7) // 8
+    rand_int = int.from_bytes(secrets.token_bytes(num_bytes), 'big')
+    bits = bin(rand_int)[2:].zfill(num_bytes * 8)
+    return bits[-n:]
+
+
 
 def frequency_test(epsilon: np.ndarray, 
                    alpha: float = 0.01) -> Dict:
@@ -426,3 +442,23 @@ if __name__ == "__main__":
     
     # Run tests
     run_nist_test_suite([seq_100,seq_128], M_block=[10,8])
+
+    print("\n" + "*"*70)
+    print("*" + " NIST SP 800-22 STATISTICAL TEST SUITE ".center(68) + "*")
+    print("*" + " Testing with Pseudorandom Examples ".center(68) + "*")
+    print("*"*70)
+
+    # Pseudorandom sequence for examples 2.1-2.3
+    pr_seq_100 = random_bitstring(100)
+
+    pr_seq_100 = np.array([int(bit) for bit in pr_seq_100])
+
+    # Pseudorandom sequence for examples 2.4
+    pr_seq_128 = random_bitstring(128)
+
+    pr_seq_128 = np.array([int(bit) for bit in pr_seq_128])
+
+    run_nist_test_suite([pr_seq_100,pr_seq_128], M_block=[10,8])
+
+
+
